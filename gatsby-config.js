@@ -17,7 +17,19 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-16468820-6",
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "ryanbenhase.com",
       },
     },
   ],
