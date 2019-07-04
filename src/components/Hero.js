@@ -8,6 +8,13 @@ class Hero extends React.Component {
   constructor(props) {
     super(props);
     this.state = {fontsLoaded:false}
+  }
+
+  componentDidMount() {
+
+    document.fonts.ready.then( () => {
+      this.setState({fontsLoaded:true});
+    })
 
     document.fonts.onloadingdone = () => {
       this.setState({fontsLoaded:true});
