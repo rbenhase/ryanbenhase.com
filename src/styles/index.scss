@@ -142,7 +142,11 @@ h6 {
 .home-hero {
   position: relative;
   width: 100vw;
-  animation: hero 1s ease-out;
+  opacity:0;
+  &.ready {
+    opacity:1;
+    animation: hero 1s ease-out;
+  }
 }
 .hero-content {
   position: absolute;

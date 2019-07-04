@@ -3,13 +3,6 @@ import React from "react"
 import { ParallaxProvider, Parallax  } from 'react-scroll-parallax'
 import SEO from "../components/SEO"
 import HeroSVG from "../components/HeroSVG"
-import IconGrid from "../components/IconGrid"
-import MeSVG from "../components/MeSVG"
-import about from "../constants/about"
-import majorProficiencies from "../constants/majorProficiencies"
-import minorProficiencies from "../constants/minorProficiencies"
-import accoutrements from "../constants/accoutrements"
-import professionalHistory from "../constants/professionalHistory"
 import Media from "react-media"
 import "../styles/index.scss"
 
