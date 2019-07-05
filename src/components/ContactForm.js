@@ -107,12 +107,11 @@ class ContactForm extends React.Component {
                   key="form"
                   name="contact"
                   method="post"
-                  action="/test/"
+                  action="/"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
                   onSubmit={this.handleSubmit}
                 >
-                  {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                   <input type="hidden" name="form-name" value="contact"/>
                   <p hidden>
                     <label>
