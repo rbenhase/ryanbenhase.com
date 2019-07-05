@@ -5,6 +5,7 @@ import SEO from "../components/SEO"
 import Hero from "../components/Hero"
 import IconGrid from "../components/IconGrid"
 import MeSVG from "../components/MeSVG"
+import ContactForm from "../components/ContactForm"
 import about from "../constants/about"
 import majorProficiencies from "../constants/majorProficiencies"
 import minorProficiencies from "../constants/minorProficiencies"
@@ -119,9 +120,7 @@ const IndexPage = () => (
       <footer className="section-footer">
         <h1>Get in Touch</h1>
         <a className="phone" href="tel:+15135496871">513.549.6871</a>
-        <a href="mailto:ryan.benhase@gmail.com" style={{margin: "0 auto"}} className="button">
-          Or Just Email Me
-        </a>
+        <ContactForm />
       </footer>
     </ParallaxProvider>
   )

@@ -64,6 +64,7 @@ h6 {
   font-weight: 400;
   font-family: Oswald, sans-serif;
   margin: .5em 0;
+  text-transform:uppercase;
 }
 
 .button {
@@ -75,11 +76,11 @@ h6 {
   color: rgba(255, 255, 255, 1);
   vertical-align: middle;
   position: relative;
-  z-index: 1;
-  border: 4px solid white;
+  z-index: 0;
+  border: 4px solid rgba(255,255,255,1);
   -webkit-backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  margin-top: -10px;
+  margin: -10px auto 1em;
   overflow: hidden;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -114,7 +115,7 @@ h6 {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s, background-color 0.3s;
     transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
   }
-  &:hover {
+  &:hover, &:focus {
     color: black;
     border-color: white;
     cursor: pointer;
@@ -127,12 +128,21 @@ h6 {
       transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
     }
   }
+  &.dark {
+    color: rgba(235, 56, 123, 1);
+    border: 4px solid rgba(235, 56, 123, 1);
+    &::before {
+      background: rgba(235, 56, 123, 1);
+    }
+    &:hover, &:focus {
+      color:rgba(255,255,255,1);
+    }
+  }
 }
 .phone {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.2em;
-  letter-spacing: -2px;
   text-decoration: none;
   color: #fff;
   display: block;
@@ -341,6 +351,17 @@ footer {
 }
 .about-mobile {
   padding-bottom: 2em;
+}
+
+
+form {
+  input,
+  textarea {
+    font-size:16px;
+    padding:.5em 1em;
+    border:1px solid rgba(200,200,200,1);
+    width:100%;
+  }
 }
 
 @media screen and (min-width:768px) {
