@@ -20,7 +20,7 @@ const modalStyles = {
     transform             : 'translate(-50%, -50%)'
   },
   overlay : {
-    background             : 'rgba(0,0,0,.8)'
+    background            : 'rgba(0,0,0,.8)'
   }
 }
 
@@ -107,6 +107,7 @@ class ContactForm extends React.Component {
                   key="form"
                   name="contact"
                   method="post"
+                  action="/"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
                   onSubmit={this.handleSubmit}
