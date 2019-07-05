@@ -9,7 +9,7 @@ const about = {
   p2: `I've worked with organizations ranging from independently-owned local businesses to large
                     international corporations, applying my technical knowledge and problem-solving abilities to the
                     unique needs of each one, developing stunning and effective websites and web applications with an
-                    unwavering commitment to exceptional customer service. You might even call me a Rennaissance man.`,
+                    unwavering commitment to exceptional customer service.`,
 };
 
 export default about
