@@ -10,8 +10,8 @@ import majorProficiencies from "../constants/majorProficiencies"
 import minorProficiencies from "../constants/minorProficiencies"
 import accoutrements from "../constants/accoutrements"
 import professionalHistory from "../constants/professionalHistory"
-import Media from "react-media"
 import "../styles/index.scss"
+import MediaQuery from 'react-responsive'
 
 
 const IndexPage = () => (
@@ -25,26 +25,11 @@ const IndexPage = () => (
       <section className="below-hero">
         <h1>About Me</h1>
 
-        <Media query="(min-width: 768px)">
-          {matches =>
-            matches ? (
-              <div className="split-section">
-                <Parallax x={[-10, 20]} y={[0, 0]} className="about-text" key="s1">
+        <MediaQuery minWidth={768}>
 
-                  <h2><span>10 Years</span> Professional Dev Experience</h2>
-                  <p>
-                    {about.p1}
-                  </p>
-                  <p>
-                    {about.p2}
-                  </p>
-                </Parallax>
-                <Parallax x={[20, -10]} y={[0, 0]} key="s2" className="about-svg">
-                  <MeSVG/>
-                </Parallax>
-              </div>
-            ) : (
-              <div className="about-mobile">
+            <div className="split-section">
+              <Parallax x={[-10, 20]} y={[0, 0]} className="about-text" key="s1">
+
                 <h2><span>10 Years</span> Professional Dev Experience</h2>
                 <p>
                   {about.p1}
@@ -52,9 +37,23 @@ const IndexPage = () => (
                 <p>
                   {about.p2}
                 </p>
-              </div>
-            )
-          }</Media>
+              </Parallax>
+              <Parallax x={[20, -10]} y={[0, 0]} key="s2" className="about-svg">
+                <MeSVG/>
+              </Parallax>
+            </div>
+        </MediaQuery>
+        <MediaQuery maxWidth={767}>
+            <div className="about-mobile">
+              <h2><span>10 Years</span> Professional Dev Experience</h2>
+              <p>
+                {about.p1}
+              </p>
+              <p>
+                {about.p2}
+              </p>
+            </div>
+        </MediaQuery>
       </section>
       <section className="section-secondary">
 
