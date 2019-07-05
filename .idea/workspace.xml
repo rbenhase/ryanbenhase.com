@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d4840f-c112-4e9c-8146-572dfd6e584f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_headers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,15 +46,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SEO.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MeSVG.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -65,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Hero.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -80,8 +72,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gatsby-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="285">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_headers">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -207,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/src/components/Hero.js" />
+        <option value="$PROJECT_DIR$/_headers" />
       </list>
     </option>
   </component>
@@ -229,29 +231,6 @@
             <path>
               <item name="ryanbenhase" type="b2602c69:ProjectViewProjectNode" />
               <item name="ryanbenhase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryanbenhase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryanbenhase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryanbenhase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryanbenhase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryanbenhase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryanbenhase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ryanbenhase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryanbenhase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -328,13 +307,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112095000" />
+    <option name="totallyTimeSpent" value="112473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24177396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24177396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -349,7 +328,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2929293" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2929293" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -386,12 +365,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/gatsby-astronaut.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/triangles_b.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/gatsby-astronaut.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/triangles_b.svg" />
     <entry file="file://$PROJECT_DIR$/src/icons/icomoon2.svg" />
     <entry file="file://$PROJECT_DIR$/src/icons/icomoon3.svg" />
     <entry file="file://$PROJECT_DIR$/src/components/minorProficiencies.js" />
@@ -415,19 +390,8 @@
     <entry file="file://$PROJECT_DIR$/gatsby-ssr.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/markdown/content.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/page-2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/markdown/content.md" />
+    <entry file="file://$PROJECT_DIR$/src/pages/page-2.js" />
     <entry file="file://$PROJECT_DIR$/src/styles/svg.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30417">
@@ -435,16 +399,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/layout.js" />
     <entry file="file://$PROJECT_DIR$/gatsby-browser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -462,13 +418,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TrianglesSVG.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TrianglesSVG.js" />
     <entry file="file://$PROJECT_DIR$/src/constants/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -497,12 +447,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/gatsby-icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/triangles_a.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/gatsby-icon.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/triangles_a.svg" />
     <entry file="file://$PROJECT_DIR$/src/constants/professionalHistory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -510,9 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Image.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Image.js" />
     <entry file="file://$PROJECT_DIR$/src/components/SEO.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -525,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="285">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -540,13 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/404.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -588,10 +526,17 @@
     <entry file="file://$PROJECT_DIR$/src/components/Hero.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_headers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
