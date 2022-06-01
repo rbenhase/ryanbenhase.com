@@ -22,7 +22,7 @@
     "react-responsive": "^7.0.0",
     "react-scroll-parallax": "^2.1.2",
     "react-waypoint": "^9.0.2",
-    "sharp": "^0.22.1",
+    "sharp": "^0.30.5",
     "typeface-oswald": "0.0.54",
     "typeface-raleway": "0.0.54"
   },
